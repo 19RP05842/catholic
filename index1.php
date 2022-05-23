@@ -4,7 +4,7 @@
 <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
 <?php
 require 'db.php';
-$sql = 'SELECT * FROM kriste';
+$sql = 'SELECT * FROM kriste';     
 $statement = $connection->prepare($sql);
 $statement->execute();
 $people = $statement->fetchAll(PDO::FETCH_OBJ);
