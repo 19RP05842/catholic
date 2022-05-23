@@ -2,7 +2,7 @@
 session_start();
 require 'db.php';
 if(!empty($msg))
-{
+{     
     ?>
     <span class="alert alert-sm alert-warning"><?=$msg;?></span>
     <?php
