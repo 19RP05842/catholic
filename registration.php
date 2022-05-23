@@ -1,6 +1,5 @@
 <?php
    require 'db.php';
-   
    $message = '';
    if (isset ($_POST['fname'])  && isset($_POST['lname']) && isset($_POST['regno']) && isset($_POST['departement']) && isset($_POST['aditioncatholic']) && isset($_POST['parishborned']) && isset($_POST['email'])) {
    
@@ -17,11 +16,7 @@
   
        header('Location:index.php');
      }
-   
-   
-   
    }
-   
 ?>
 <!DOCTYPE html>
 <html>
@@ -106,8 +101,6 @@
         <a href="index.php">Exit</a>
         
     </form>
-    
-    
 </fieldset>
 </center>
 </body>
