@@ -49,7 +49,6 @@
     }
     </style>
     </head>
-
     <meta charset="utf-8"/>
     <title> Welcome To Registration Form</title>
     <link rel="stylesheet" href="style.css"/>
