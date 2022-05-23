@@ -16,7 +16,7 @@ if (isset ($_POST['fname'])  && isset($_POST['lname']) && isset($_POST['regno'])
     $message = 'data inserted successfully';
     //header('Location:index.php');
   }
-}
+}        
  ?>
 <?php require 'header.php'; ?>
 <div class="container">
