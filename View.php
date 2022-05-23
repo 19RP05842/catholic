@@ -26,7 +26,7 @@ $people = $statement->fetchAll(PDO::FETCH_OBJ);
           <th>AditionCatholic</th>
           <th>ParishBorned</th>
           <th>Email</th>
-          
+               
         </r>
         <?php foreach($people as $person): ?>
           <tr>
