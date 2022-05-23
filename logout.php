@@ -1,11 +1,8 @@
 <?php 
 
 session_start();
-
 session_unset();
-
 session_destroy();
-
 header("Location: index.php");
 //<?php 
 $uname = $row['Username'];
@@ -16,7 +13,6 @@ session_start();
 if (isset($_SESSION['id']) && isset($_SESSION['user'])) {
  echo "log.php"
  ?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -29,9 +25,8 @@ if (isset($_SESSION['id']) && isset($_SESSION['user'])) {
 </body>
 </html>
 <?php 
-
-}else{
-
+}else
+{
      header("Location: log.php");
 
      exit();
